@@ -136,8 +136,8 @@ class Life {
         )
         return {
             AGE: this.#property.get(this.#property.TYPES.HAGE),
-            CHR: this.#property.get(this.#property.TYPES.HCHR),
-            INT: this.#property.get(this.#property.TYPES.HINT),
+            CHR: this.#property.get(this.#property.TYPES.HMAG),
+            INT: this.#property.get(this.#property.TYPES.HSCI),
             STR: this.#property.get(this.#property.TYPES.HSTR),
             MNY: this.#property.get(this.#property.TYPES.HMNY),
             SPR: this.#property.get(this.#property.TYPES.HSPR),
