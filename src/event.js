@@ -33,6 +33,7 @@ class Event {
 
     get(eventId) {
         const event = this.#events[eventId];
+        debugger;
         if(!event) throw new Error(`[ERROR] No Event[${eventId}]`);
         return clone(event);
     }

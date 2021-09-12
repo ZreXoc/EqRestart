@@ -136,11 +136,15 @@ class Life {
         )
         return {
             AGE: this.#property.get(this.#property.TYPES.HAGE),
-            CHR: this.#property.get(this.#property.TYPES.HMAG),
-            INT: this.#property.get(this.#property.TYPES.HSCI),
-            STR: this.#property.get(this.#property.TYPES.HSTR),
             MNY: this.#property.get(this.#property.TYPES.HMNY),
-            SPR: this.#property.get(this.#property.TYPES.HSPR),
+            MAG: this.#property.get(this.#property.TYPES.HMAG),
+            SCI: this.#property.get(this.#property.TYPES.HSCI),
+            STR: this.#property.get(this.#property.TYPES.HSTR),
+            HNY: this.#property.get(this.#property.TYPES.HHNY),
+            LYT: this.#property.get(this.#property.TYPES.HLYT),
+            GNR: this.#property.get(this.#property.TYPES.HGNR),
+            KID: this.#property.get(this.#property.TYPES.HKID),
+            LAG: this.#property.get(this.#property.TYPES.HLAG),
             SUM: this.#property.get(this.#property.TYPES.SUM),
         };
     }

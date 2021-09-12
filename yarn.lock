@@ -1134,10 +1134,10 @@
     "json-schema-traverse" "^0.4.1"
     "uri-js" "^4.2.2"
 
-"ansi-html@^0.0.7":
-  "integrity" "sha1-gTWEAhliqenm/QOflA0S9WynhZ4="
-  "resolved" "https://registry.nlark.com/ansi-html/download/ansi-html-0.0.7.tgz"
-  "version" "0.0.7"
+"ansi-html-community@^0.0.8":
+  "integrity" "sha1-afvE1sy+OD+XNpNK40w/gpDxv0E="
+  "resolved" "https://registry.nlark.com/ansi-html-community/download/ansi-html-community-0.0.8.tgz"
+  "version" "0.0.8"
 
 "ansi-regex@^6.0.0":
   "integrity" "sha512-tAaOSrWCHF+1Ear1Z4wnJCXA9GGox4K6Ic85a5qalES2aeEwQGr7UC93mwef49536PkCYjzkp0zIxfFvexJ6zQ== sha1-7Mf1kzy+WsezPiCaX/QJqxZpxrI="
@@ -1897,7 +1897,7 @@
   "version" "0.5.2"
 
 "fs-monkey@1.0.3":
-  "integrity" "sha512-cybjIfiiE+pTWicSCLFHSrXZ6EilF30oh91FDP9S2B051prEa7QWfrVTQm10/dDpswBDXZugPa1Ogu8Yh+HV0Q== sha1-rjrJLVO7Mo7+DpodlUH2rY1I4tM="
+  "integrity" "sha1-rjrJLVO7Mo7+DpodlUH2rY1I4tM="
   "resolved" "https://registry.nlark.com/fs-monkey/download/fs-monkey-1.0.3.tgz"
   "version" "1.0.3"
 
@@ -2370,28 +2370,13 @@
   dependencies:
     "semver" "^6.0.0"
 
-"map-age-cleaner@^0.1.3":
-  "integrity" "sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w== sha1-fVg6cwZDTAVf5HSw9FB45uG0uSo="
-  "resolved" "https://registry.nlark.com/map-age-cleaner/download/map-age-cleaner-0.1.3.tgz"
-  "version" "0.1.3"
-  dependencies:
-    "p-defer" "^1.0.0"
-
 "media-typer@0.3.0":
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
   "resolved" "https://registry.nlark.com/media-typer/download/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
-"mem@^8.1.1":
-  "integrity" "sha512-qFCFUDs7U3b8mBDPyz5EToEKoAkgCzqquIgi9nkkR9bixxOVOre+09lbuH7+9Kn2NFpm56M3GUWVbU2hQgdACA== sha1-zxGLNXxlq3t+CBe98AyAYil8ASI="
-  "resolved" "https://registry.nlark.com/mem/download/mem-8.1.1.tgz"
-  "version" "8.1.1"
-  dependencies:
-    "map-age-cleaner" "^0.1.3"
-    "mimic-fn" "^3.1.0"
-
 "memfs@^3.2.2":
-  "integrity" "sha512-2mDCPhuduRPOxlfgsXF9V+uqC6Jgz8zt/bNe4d4W7d5f6pCzHrWkxLNr17jKGXd4+j2kQNsAG2HARPnt74sqVQ== sha1-EQjCjS6RN9r1pVhq+FbD4YwcZLI="
+  "integrity" "sha1-EQjCjS6RN9r1pVhq+FbD4YwcZLI="
   "resolved" "https://registry.nlark.com/memfs/download/memfs-3.2.4.tgz"
   "version" "3.2.4"
   dependencies:
@@ -2446,11 +2431,6 @@
   "integrity" "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg== sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs="
   "resolved" "https://registry.nlark.com/mimic-fn/download/mimic-fn-2.1.0.tgz"
   "version" "2.1.0"
-
-"mimic-fn@^3.1.0":
-  "integrity" "sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ== sha1-ZXVRRbvz42lUuUnBZFBCdFHVynQ="
-  "resolved" "https://registry.nlark.com/mimic-fn/download/mimic-fn-3.1.0.tgz"
-  "version" "3.1.0"
 
 "minimalistic-assert@^1.0.0":
   "integrity" "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A== sha1-LhlN4ERibUoQ5/f7wAznPoPk1cc="
@@ -2603,11 +2583,6 @@
     "define-lazy-prop" "^2.0.0"
     "is-docker" "^2.1.1"
     "is-wsl" "^2.2.0"
-
-"p-defer@^1.0.0":
-  "integrity" "sha1-n26xgvbJqozXQwBKfU+WsZaw+ww="
-  "resolved" "https://registry.nlark.com/p-defer/download/p-defer-1.0.0.tgz"
-  "version" "1.0.0"
 
 "p-event@^4.2.0":
   "integrity" "sha512-KXatOjCRXXkSePPb1Nbi0p0m+gQAwdlbhi4wQKJPI1HsMQS9g+Sqp2o+QHziPr7eYJyOZet836KoHEVM1mwOrQ== sha1-r0sEnIrNka6BCD69Hm9criBEwbU="
@@ -2953,15 +2928,6 @@
   dependencies:
     "@types/json-schema" "^7.0.5"
     "ajv" "^6.12.4"
-    "ajv-keywords" "^3.5.2"
-
-"schema-utils@^3.0.0":
-  "integrity" "sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw== sha1-vHTEtraZXB2I92qLd76nIZ4MgoE="
-  "resolved" "https://registry.nlark.com/schema-utils/download/schema-utils-3.1.1.tgz"
-  "version" "3.1.1"
-  dependencies:
-    "@types/json-schema" "^7.0.8"
-    "ajv" "^6.12.5"
     "ajv-keywords" "^3.5.2"
 
 "schema-utils@^3.1.0":
@@ -3369,24 +3335,23 @@
     "v8-compile-cache" "^2.2.0"
     "webpack-merge" "^5.7.3"
 
-"webpack-dev-middleware@^5.0.0":
-  "integrity" "sha512-9zng2Z60pm6A98YoRcA0wSxw1EYn7B7y5owX/Tckyt9KGyULTkLtiavjaXlWqOMkM0YtqGgL3PvMOFgyFLq8vw== sha1-Cr6CUnVyDgozmXiupfCwOxQMFYQ="
-  "resolved" "https://registry.nlark.com/webpack-dev-middleware/download/webpack-dev-middleware-5.0.0.tgz?cache=0&sync_timestamp=1631204166157&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwebpack-dev-middleware%2Fdownload%2Fwebpack-dev-middleware-5.0.0.tgz"
-  "version" "5.0.0"
+"webpack-dev-middleware@^5.1.0":
+  "integrity" "sha1-kKZFsHfoX2YcW7ln3DKtw+zrXP0="
+  "resolved" "https://registry.nlark.com/webpack-dev-middleware/download/webpack-dev-middleware-5.1.0.tgz?cache=0&sync_timestamp=1631204166157&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwebpack-dev-middleware%2Fdownload%2Fwebpack-dev-middleware-5.1.0.tgz"
+  "version" "5.1.0"
   dependencies:
     "colorette" "^1.2.2"
-    "mem" "^8.1.1"
     "memfs" "^3.2.2"
     "mime-types" "^2.1.31"
     "range-parser" "^1.2.1"
-    "schema-utils" "^3.0.0"
+    "schema-utils" "^3.1.0"
 
-"webpack-dev-server@^4.1.0":
-  "integrity" "sha512-PnnoCHuLKxH3vYff2EbORntD0Pd+MKclDIO8AcKsDVRToqY9/oeIwwUs5alA2B5OPgXJhaDNkBJAmb0OaWZFJA== sha1-HHp7d72v7DNKi4HSbFhveTABtco="
-  "resolved" "https://registry.nlark.com/webpack-dev-server/download/webpack-dev-server-4.1.0.tgz"
-  "version" "4.1.0"
+"webpack-dev-server@^4.2.0":
+  "integrity" "sha1-9mkRfpfwrL7kR6Wy63AGCwPzncs="
+  "resolved" "https://registry.nlark.com/webpack-dev-server/download/webpack-dev-server-4.2.0.tgz"
+  "version" "4.2.0"
   dependencies:
-    "ansi-html" "^0.0.7"
+    "ansi-html-community" "^0.0.8"
     "bonjour" "^3.5.0"
     "chokidar" "^3.5.1"
     "colorette" "^1.2.2"
@@ -3409,7 +3374,7 @@
     "spdy" "^4.0.2"
     "strip-ansi" "^7.0.0"
     "url" "^0.11.0"
-    "webpack-dev-middleware" "^5.0.0"
+    "webpack-dev-middleware" "^5.1.0"
     "ws" "^8.1.0"
 
 "webpack-merge@^5.7.3":
@@ -3425,10 +3390,10 @@
   "resolved" "https://registry.nlark.com/webpack-sources/download/webpack-sources-3.2.0.tgz?cache=0&sync_timestamp=1627898333297&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwebpack-sources%2Fdownload%2Fwebpack-sources-3.2.0.tgz"
   "version" "3.2.0"
 
-"webpack@^4.0.0 || ^5.0.0", "webpack@^4.37.0 || ^5.0.0", "webpack@^5.1.0", "webpack@^5.51.2", "webpack@>=2", "webpack@4.x.x || 5.x.x":
-  "integrity" "sha512-odydxP4WA3XYYzwSQUivPxywdzMlY42bbfxMwCaEtHb+i/N9uzKSHcLgWkXo/Gsa+4Zlzf3Jg0hEHn1FnZpk2Q== sha1-92XSWLC/ar2jxfIb+FWiVyDpeW8="
-  "resolved" "https://registry.nlark.com/webpack/download/webpack-5.51.2.tgz"
-  "version" "5.51.2"
+"webpack@^4.0.0 || ^5.0.0", "webpack@^4.37.0 || ^5.0.0", "webpack@^5.1.0", "webpack@^5.52.1", "webpack@>=2", "webpack@4.x.x || 5.x.x":
+  "integrity" "sha1-LcHZAp7Les+4Dae/Z7qrZ7qlF6c="
+  "resolved" "https://registry.nlark.com/webpack/download/webpack-5.52.1.tgz"
+  "version" "5.52.1"
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"

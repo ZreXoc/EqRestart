@@ -1,7 +1,8 @@
 const path = require('path');
+const webpack = require('webpack')
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './src/index.js',
   devtool: 'eval-cheap-module-source-map',
   devServer: {
@@ -27,15 +28,21 @@ module.exports = {
         publicPath: '/lib',
       }
     ],
+    hot: true,
+    historyApiFallback: true,
+    compress: true
   },
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
-    clean: true,
+    //clean: true,
   },
   // resolve: {
   //   extensions: ['.js'],
   // },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ],
   module: {
     rules: [{
       test: /\.js$/,
