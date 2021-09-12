@@ -1,5 +1,5 @@
 {
-    "name": "life_restart",
+    "name": "eq_restart",
     "type": "module",
     "bin": "repl/index.js",
     "scripts": {
